@@ -1,0 +1,4 @@
+GET http://user:pw@host.i2p:8080/a%20b/c?q=1#frag HTTP/1.1
+Host: host.i2p:8080
+X-Forwarded-For: 1.2.3.4
+

@@ -1,0 +1,5 @@
+HTTP/1.0 302 Found
+Location: http://example.i2p/new
+Content-Length: 0
+Set-Cookie: a=b; Path=/
+

@@ -1,0 +1,6 @@
+GET /index.html HTTP/1.1
+Host: example.i2p
+User-Agent: MYOB/6.66 (AN/ON)
+Accept: text/html
+Connection: close
+

@@ -1,0 +1,7 @@
+POST /submit?a=1&b=2 HTTP/1.0
+Host: foo.b32.i2p
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 7
+Referer: http://foo.i2p/
+
+x=1&y=2
