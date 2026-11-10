@@ -1,0 +1,8 @@
+project: savantenvs/i2pd
+target: fuzz_base
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_base/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_base
+    libfuzzer: true

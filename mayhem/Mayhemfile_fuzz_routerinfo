@@ -1,0 +1,8 @@
+project: savantenvs/i2pd
+target: fuzz_routerinfo
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_routerinfo/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_routerinfo
+    libfuzzer: true
